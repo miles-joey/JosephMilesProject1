@@ -1,0 +1,160 @@
+// ~~~~~~~~~~~~~~~~~~~~~~~~
+// \\\   Header       \\\
+// ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+// +++++++++++++++
+// |||upper nav|||
+// +++++++++++++++
+.upperNav {
+    background-color: $Green;
+}
+
+.upperNav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    color: $White;
+
+}
+
+// ++++++++++
+// |||nav|||
+// ++++++++++
+nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding: auto;
+    // not doing anything but could maybe use
+}
+
+
+ul {
+    display: flex;
+    gap: 20px;
+
+    a {
+    text-decoration: none;
+    color:$Black;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color:$Black;
+    }
+
+    a:hover {
+        color:$Green;
+    }
+}
+
+.logo {    
+    // min-width: 100px;
+    // border: 2px solid red;
+    //was using for debugging
+    width: 70px;
+    
+
+    img {
+        width:100%;
+    }
+}
+
+.shoppingBag {
+    width: 2rem;
+    height: 2rem;
+}
+
+.Super3 {
+    position:relative;
+    color: $LGrey;
+    right: -11px;
+    top: -34px;
+
+    p {
+        font-size: 1rem;
+        background-color: $Green;
+        border-radius: 50%;
+        // line-height: px;
+        text-align: center;
+    }
+}
+// ++++++++++++
+// |||header|||
+// ++++++++++++
+
+
+.headerContainer {
+    background-color: $LGrey;
+}
+
+.headerContainer .wrapper{
+    display: flex;
+}
+
+#mainH2 {
+    text-align: left;
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 8rem;
+    font-weight: 400;
+    padding: 0;
+}
+
+.titleContainer p {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+
+.titleContainer {
+    text-align: left;
+    width: 50%;
+    // padding:auto 0;
+    margin: auto 0;
+}
+
+.titleContainer > * {
+    margin: 0;
+}
+
+button {
+    background-color:$Green;
+    padding: 1.5rem 2.2rem;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+}
+
+.titleImg {
+    width: 50%;
+}
+
+
+// +++++++++++++++++++++
+// |||quality boxes|||
+// +++++++++++++++++++++
+.qualitySection .wrapper {
+    margin-top: 5rem;
+    display:flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 5rem;
+    // width: calc(33% - 10px);
+}
+
+.qualityBox {
+    border: 2px dotted $Green;
+    display: flex;
+}

@@ -1,0 +1,62 @@
+// ~~~~~~~~~~~~~~~~~~~~~~~~
+// \\\   Footer        \\\
+// ~~~~~~~~~~~~~~~~~~~~~~~~
+
+footer {
+    background-image: url(../assets/footer.jpg);
+    background-size: cover;
+    background-repeat: none;
+    padding: 40px 0 40px 0;
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    #phoneNumber {
+        font-weight: bold;
+    }
+}
+
+.flexFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexFooter div {
+    width: 300px;
+}
+
+#socialsSection {
+    max-width: 25%;
+    p{
+        text-align: left;
+        padding-right: 10px;
+    }
+}
+
+#socialsSection .logo {
+    width: 70px;
+}
+
+#socialsSection .logo img {
+    width: 100%;
+}
+
+.socials img{
+    border: 1px solid $Black;
+    width: 3rem;
+    height: 3rem;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+#copyright {
+    border-top: solid 1px $Green;
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+
+

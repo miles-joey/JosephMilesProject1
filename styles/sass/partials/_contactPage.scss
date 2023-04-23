@@ -1,0 +1,27 @@
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// \\\   Contact 2nd Page STUFF       \\\
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.titleContact {
+    background-image:url(../assets/contact-header.jpg);
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~
+// \\\   form STUFF     \\\
+// ~~~~~~~~~~~~~~~~~~~~~~~~
+.contactForm {
+
+    label {
+        background-image: url(../assets/contact.jpg);
+    }
+
+    .submit {
+        background-color: $Green;
+    }
+}
