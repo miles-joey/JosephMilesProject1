@@ -1,8 +1,8 @@
+@use "_variables.scss" as *;
+
 // ~~~~~~~~~~~~~~~~~~~~~~~~
 // \\\   Header       \\\
 // ~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 // +++++++++++++++
 // |||upper nav|||
@@ -14,8 +14,8 @@
 .upperNav .wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: $White;
-
 }
 
 // ++++++++++
@@ -31,7 +31,6 @@ nav {
     padding: auto;
     // not doing anything but could maybe use
 }
-
 
 ul {
     display: flex;
@@ -58,7 +57,6 @@ ul {
     //was using for debugging
     width: 70px;
     
-
     img {
         width:100%;
     }
@@ -87,7 +85,6 @@ ul {
 // |||header|||
 // ++++++++++++
 
-
 .headerContainer {
     background-color: $LGrey;
 }
@@ -114,7 +111,6 @@ h1 {
     margin-bottom: 1rem;
 }
 
-
 .titleContainer {
     text-align: left;
     width: 50%;
@@ -134,13 +130,11 @@ button {
     color: white;
     font-weight: 500;
     font-size: 1.2rem;
-    
 }
 
 .titleImg {
     width: 50%;
 }
-
 
 // +++++++++++++++++++++
 // |||quality boxes|||
@@ -157,4 +151,11 @@ button {
 .qualityBox {
     border: 2px dotted $Green;
     display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2.5rem;
+
+    h3 {
+        font-size: 2.5rem;
+    }
 }

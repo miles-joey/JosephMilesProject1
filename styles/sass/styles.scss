@@ -1,14 +1,10 @@
 
 // @use "./partials/header";
-@use "./partials/variables";
-@use "./partials/setup";
-@use "./partials/general";
-@use "./partials/header";
-@use "./partials/main";
-@use "./partials/footer";
-@use "./partials/contactPage";
+@use "./partials/_variables.scss" as *;
+@use "./partials/_setup";
+@use "./partials/_general";
+@use "./partials/_header";
+@use "./partials/_main";
+@use "./partials/_footer";
+@use "./partials/_contactPage";
 
-
-// ~~~~~~~~~~~~~~~~~~~~~~~~
-// \\\        \\\
-// ~~~~~~~~~~~~~~~~~~~~~~~~

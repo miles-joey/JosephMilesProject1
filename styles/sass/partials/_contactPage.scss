@@ -1,3 +1,5 @@
+@use "_variables.scss" as *;
+
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // \\\   Contact 2nd Page STUFF       \\\
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -11,17 +13,66 @@
 }
 
 
-
 // ~~~~~~~~~~~~~~~~~~~~~~~~
 // \\\   form STUFF     \\\
 // ~~~~~~~~~~~~~~~~~~~~~~~~
-.contactForm {
+.contactFormSection {
+    padding: 5rem;
+    
 
-    label {
-        background-image: url(../assets/contact.jpg);
+    .wrapper form {
+        display: flex;
     }
+}
 
-    .submit {
-        background-color: $Green;
-    }
+.leftSideForm {
+    background-image: url(../assets/contact.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30vw;
+    margin-right: 5px;
+}
+
+.leftSideForm label {
+    color: $White;
+}
+
+.leftSideForm label p {
+    color: $White;
+    
+}
+
+.rightSideForm input {
+    margin: 10px 0px;
+}
+
+
+.rightSideForm input{
+    border: none;
+    border-bottom: 1px solid #b4b4b4;
+    font-style: italic;
+}
+
+input[type=text] {
+    color: #b4b4b4;
+    width: 20vw;
+    // color in design was not matching anything in stylesheet
+    // so used a random light grey color
+}
+
+label {
+    color: #b4b4b4;
+    font-style: italic;
+}
+
+#messageInput {
+    width: 40vw;
+}
+
+input[type=submit] {
+    background-color: $Green;
+    border-radius: 5px;
+    padding: 5px;
+    font-style: normal;
+    color: $White;
 }
