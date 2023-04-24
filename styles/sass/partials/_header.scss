@@ -116,6 +116,7 @@ h1 {
     width: 50%;
     // padding:auto 0;
     margin: auto 0;
+    z-index: 2;
 }
 
 .titleContainer > * {
@@ -134,6 +135,10 @@ button {
 
 .titleImg {
     width: 50%;
+
+    @media (min-width:420px) {
+        width: 100vw;
+    }
 }
 
 // +++++++++++++++++++++

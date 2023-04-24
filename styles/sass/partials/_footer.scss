@@ -8,7 +8,7 @@ footer {
     background-image: url(../assets/footer.jpg);
     background-size: cover;
     background-repeat: none;
-    padding: 40px 0 40px 0;
+    padding: 4rem 0 1rem 0;
 
     h3 {
         font-size: 2rem;
@@ -25,19 +25,19 @@ footer {
 }
 
 .flexFooter div {
-    width: 300px;
+    width: 30rem;
 }
 
 #socialsSection {
     max-width: 25%;
     p{
         text-align: left;
-        padding-right: 10px;
+        padding-right: 1rem;
     }
 }
 
 #socialsSection .logo {
-    width: 70px;
+    width: 7rem;
 }
 
 #socialsSection .logo img {
@@ -48,19 +48,25 @@ footer {
     border: 1px solid $Black;
     width: 3rem;
     height: 3rem;
-    padding: 10px;
-    margin: 0 5px;
+    padding: 1rem;
+    margin: 0 0.5rem;
 }
 
 #copyright {
     border-top: solid 1px $Green;
     text-align: center;
-    margin: 15px 0px 0px 0px;
-    padding: 10px 0px;
+    margin: 1.5rem 0px 0px 0px;
+    padding: 1rem 0px;
     color: $Green;
 }
 
+// footer media querries
+.footerLinks {
+    @media (max-width:720px) {
+        display: none;
+    }
 
+}
 
 
 

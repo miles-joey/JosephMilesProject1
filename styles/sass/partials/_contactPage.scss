@@ -17,33 +17,50 @@
 // \\\   form STUFF     \\\
 // ~~~~~~~~~~~~~~~~~~~~~~~~
 .contactFormSection {
-    padding: 5rem;
+    padding: 5rem 0px;
     
 
     .wrapper form {
         display: flex;
+        box-shadow: 3px 3px 3px 3px rgba(60,60,60,0.1);
     }
 }
 
 .leftSideForm {
     background-image: url(../assets/contact.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 30vw;
-    margin-right: 5px;
+    width: auto;
+    max-width: 40%;
+    margin-right: 10px;
+    border-radius: 0px;
+    font-style: normal;
+    padding: 20px;
+    padding-bottom: 25rem;
 }
 
 .leftSideForm label {
     color: $White;
+    font-style: normal;
 }
 
 .leftSideForm label p {
     color: $White;
-    
+    font-style: normal;
+    font-size: 1.6rem;
 }
 
+.leftSideForm h4 {
+    color: $White;
+    font-style: normal;
+    // these last three are super not dry but nothing was working
+    font-size: 1.6rem;
+}
+
+
 .rightSideForm input {
-    margin: 10px 0px;
+    margin: 20px 5px;
+    padding: 20px 0px 0px 0px;
 }
 
 
@@ -75,4 +92,5 @@ input[type=submit] {
     padding: 5px;
     font-style: normal;
     color: $White;
+    float: right;
 }
