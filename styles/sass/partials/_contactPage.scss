@@ -70,7 +70,7 @@
     font-style: italic;
 }
 
-input[type=text] {
+input[type=text], input[type=email] {
     color: #b4b4b4;
     width: 20vw;
     // color in design was not matching anything in stylesheet
