@@ -1,6 +1,5 @@
 @use "_variables.scss" as *;
 
-
 // ~~~~~~~~~~~~~~~~~~~~~~~~
 // \\\   Main       \\\
 // ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -83,7 +82,6 @@ h4 {
     font-size: 2rem;
 }
 
-
 // ~~~~~~~~~~~~~~~~~~~~~~~~
 // \\\   Section  Gallery    \\\
 // ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -158,7 +156,6 @@ h4 {
 
 #g1 {
     background-image: url(../assets/b1.jpeg);
-
 }
 
 #g2 {
@@ -178,12 +175,12 @@ h4 {
         margin: 4rem;
     }
 }
+
 #g3 h3{
     @media (max-width:900px) {
         margin: 4rem;
     }
 }
-
 
 // more queries, bit convuluted but making sure its dynamic
 
@@ -209,14 +206,8 @@ h4 {
         width: calc(50% - 20px);
         margin: 0 auto;
         margin-top: 2rem;
-        
-
-
     }
 }
-
-
-
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // \\\   Section  Latest Posts/blog boxes    \\\
@@ -231,25 +222,24 @@ h4 {
         @media (max-width:500px) {
             margin-top: 6rem;
         }
-
-        
     }
+
     p {
         text-align: center;
         font-size: 1rem;
     }
 }
-    .flexBB {
-        display: flex;
-        justify-content: space-between;
-        gap: 20px;
-        margin-bottom: 2rem;
-        // width: calc(33% - 40px);
 
-        @media (max-width:720px){
-            flex-direction: column;
+.flexBB {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 2rem;
+    // width: calc(33% - 40px);
+
+    @media (max-width:720px) {
+        flex-direction: column;
         }
-
 
     .blogBox {
         background-color: $LGrey;

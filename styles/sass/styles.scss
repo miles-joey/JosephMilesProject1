@@ -1,5 +1,3 @@
-
-// @use "./partials/header";
 @use "./partials/_variables.scss" as *;
 @use "./partials/_setup";
 @use "./partials/_general";
@@ -10,4 +8,6 @@
 
 // Laptops - 1440px ---use
 // Lg Phone (Portrait) - 420px ---use
+//also used some dynamic ones around 900px to make sure
+//page was fully responsive with few/no break issues
 
