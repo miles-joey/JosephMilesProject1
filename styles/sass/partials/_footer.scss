@@ -62,10 +62,17 @@ footer {
 
 // footer media querries
 .footerLinks {
-    @media (max-width:720px) {
+    @media (max-width:850px) {
         display: none;
     }
+    // made them disappear a bit early but too many alignment issues, would rather it look nice on widescreen, laptop, and phone, it currently is weak at tablet, work on in future.
 
+}
+
+.questionsFooter {
+    @media (max-width:720px) {
+        text-align: right;
+    }
 }
 
 

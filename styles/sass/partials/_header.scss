@@ -81,6 +81,7 @@ ul {
         text-align: center;
     }
 }
+
 // ++++++++++++
 // |||header|||
 // ++++++++++++
@@ -136,8 +137,10 @@ button {
 .titleImg {
     width: 50%;
 
-    @media (min-width:420px) {
+    @media (max-width:720px) {
         width: 100vw;
+        position:relative;
+        right: 100px;
     }
 }
 
@@ -151,14 +154,33 @@ button {
     gap: 2rem;
     margin-bottom: 5rem;
     // width: calc(33% - 10px);
+
+    @media (max-width:900px) {
+        width: calc(50% - 0px);
+        flex-flow: column wrap;
+        align-items: center;
+    }
 }
 
 .qualityBox {
     border: 2px dotted $Green;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    // gap: 1rem;
     padding: 1rem 2.5rem;
+    width: calc(33% - 10px);
+    min-width: 16rem;
+
+    @media (max-width:900px) {
+        width: calc(50% - 0px);
+        flex-flow: column wrap;
+        text-align: center;
+    }
+
+    @media (max-width:420px) {
+        display: none;
+    }
+
 
     h3 {
         font-size: 2.5rem;
