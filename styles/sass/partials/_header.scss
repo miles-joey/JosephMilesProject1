@@ -85,6 +85,70 @@ ul {
     }
 }
 
+// ++++++++++++++++++++++++++
+// |||hamburger menu stuff|||
+// ++++++++++++++++++++++++++
+
+.hamburger {
+    position: relative;
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    // cursor: pointer;
+
+    // appearance: none;
+    // background: none;
+    // outline: none;
+    // border: none;
+}
+
+
+.hamburger:hover .iconPlant{
+    display:none;
+}
+
+.hamburger:hover .iconPlantBounce{
+    display:block;
+}
+
+// .hamburger .iconPlant{
+//     color: purple;
+//     font-size: 5rem;
+// }
+
+// .hamburger .iconPlantBounce {
+//     color: purple;
+//     font-size: 5rem;
+//     display:none;
+// }
+// delete these but dbl chk for formatting
+
+body {
+    position: relative;
+}
+
+.mobileNav {
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:9999px;
+    background-color: purple;
+    z-index: 5;
+    transition: ease-in 0.6s;
+
+}
+
+.hamburger {
+    display: none;
+}
+@media(max-width:768px) {
+    .hamburger {
+        display: block;
+    }
+
+}
+
 // ++++++++++++
 // |||header|||
 // ++++++++++++
