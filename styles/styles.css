@@ -358,6 +358,9 @@ body {
   font-size: 5rem;
   color: white;
 }
+.mobileNav img {
+  margin: 100px 0 0 0;
+}
 
 .hamburger {
   display: none;
